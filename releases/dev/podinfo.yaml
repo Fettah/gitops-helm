@@ -14,7 +14,7 @@ spec:
     path: charts/podinfo
     ref: master
   values:
-    image: fettah/podinfo:dev-hdtwcel9
+    image: fettah/podinfo:dev-j6i3mxxg
     replicaCount: 1
     hpa:
       enabled: false
