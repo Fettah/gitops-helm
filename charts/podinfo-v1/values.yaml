@@ -16,7 +16,7 @@ image:
   pullPolicy: IfNotPresent
 
 service:
-  type: ClusterIP
+  type: LoadBalancer
   externalPort: 9898
   containerPort: 9898
   nodePort: 31198
